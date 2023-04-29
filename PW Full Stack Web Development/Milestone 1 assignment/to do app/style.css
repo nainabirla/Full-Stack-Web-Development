@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 110vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.flex{
+    display: flex;
+    
+}
+section{
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    width: 300px;
+    height: 230px;
+    flex-direction: column;
+    align-self: flex-start;
+    /* justify-content: center; */
+    margin: 10px;
+    background-color: rgb(158, 77, 233);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+section div:last-child{
+    padding: 20px 20px;
+    width: 300px;
+    height: 230px;
+    background-color: rgb(158, 77, 233);
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.container h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.container label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: yellow;
+}
+.container input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: none;
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px;
+    
+    
+}
+.container input:focus{
+    background-color: black;
+}
+section button{
+    font-weight: 550;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: .2s;
+}
+section button:hover{
+    transform: scale(1.03);
+    background-color: rgb(242, 242, 119);
+    transition: .3s;
+    
+}
+section div:last-child p{
+    color: rgb(242, 242, 119);
+    font-size: 25px;
+    border-bottom: 1px solid white;
+}
+section div:last-child ul{
+    padding-inline: 25px;
+
+}
+section div:last-child li{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 5px;
+    
+
+}
+
+
+
+@media screen and (max-width:525px){
+    section{
+        flex-direction: column;
+    }
+    .container{
+        margin-bottom: 10px;
+        /* margin-left: 50px; */
+        width: 250px;
+    }
+    .container h1{
+        font-size: 25px;
+    }
+    section div:last-child{
+        margin-top: 2px;
+        width: 250px;
+    }
+}
