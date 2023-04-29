@@ -1,0 +1,458 @@
+*{
+    background: #0f0f10;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+body{
+    margin: 0 15vw;
+}    
+nav img{
+    width: 25px;
+    height: 25px;
+}
+
+.btn{
+    
+    padding: 12px 40px;
+    background-color: #1e1e21;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+
+.list-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+
+}
+ul li{
+    margin-right: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.mainImage{
+    width: 230px;
+    margin-top: -180px;
+    margin-left: 130px;
+}
+
+img[alt="on-ear"]{
+    width: 300px;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+main{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 30px;
+}
+.main-section{
+    margin-left: 180px;
+    
+}
+.main-section h1{
+    margin: 15px 0px;
+}
+
+.main-section h4{
+    margin: 30px 0px;
+}
+.main-section p{
+    margin: 30px 0px;
+    width: 80%;
+}
+
+
+.bag{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* background-color: #1e1e21; */
+    border-radius: 8px;
+    width: 30%;
+    margin-left: 535px;
+}
+.bag p{
+    cursor: pointer;
+    background-color: #1e1e21;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+img[alt="appleLogo"]{
+    width: 8%;
+}
+img[alt="spotifyLogo"]{
+    width: 8%;
+}
+img[alt="amazonLogo"]{
+    width: 8%;
+}
+img[alt="amazonLogo"]{
+    width: 8%;
+}
+
+img[alt="specsLogo"]{
+    margin-top: 100px;
+    margin-left: 360px;
+    margin-bottom: 50px;
+}
+.info-list{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.bluetooth{
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.battery{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.charger{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.mic{
+    margin-left: 60px;
+}
+img[alt="specsImage"]{
+    margin-left: 100px;
+}
+
+.info-list-items p:last-child{
+    font-weight: 200;
+}
+
+img[alt="caseLogo"]{
+    margin-top: 130px;
+    margin-left: 360px;
+    margin-bottom: 70px;
+}
+.case-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.case-image img{
+    margin-left: 5px;
+}
+
+.case-right{
+    width:210px;
+    text-align: justify;
+    
+}
+
+.case-right p{
+    margin-bottom: 40px;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* gap: 20px; */
+    width: 200px;
+    height: 50px;
+    background-color: #1e1e21;
+    border-radius: 10px;
+    
+}
+.group img{
+    margin-right: 25px;
+    margin-left: 40px;
+
+
+}
+.buy-now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #181a1b;
+    margin-top: 70px;
+    padding: 40px 0;
+    gap: 50px;
+    
+
+}
+
+.buy-now div,
+.buy-now p,
+.buy-now img,
+.buy-now h3{
+    background: transparent;
+}
+
+.buy-now div{
+    width: 22%;
+}
+.buy-now h3{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.buy-now div p{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.buy-now div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.buy-now div img{
+    scale: 0.8;
+}
+.buy-now div div p{
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+img[alt="productLogo"]{
+    margin: 70px 310px;
+    width: 20vw;
+    
+}
+
+.product-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    
+    width: 200px;
+    margin-left: 350px;
+    
+}
+
+.product-cards{
+    margin: 80px 40px;
+    
+    height: fit-content;
+    background-color: #181a1b;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+
+}
+
+.product-cards img,
+.product-cards div,
+.product-cards p{
+    background: transparent;
+}
+
+.product-cards img{
+    margin-top: -70px;
+    margin-bottom: 40px;
+}
+
+.product-image{
+    scale: 0.5;
+    
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+    
+}
+.product-info p{
+    margin-left: 70px;
+    width: 180px;
+    margin-bottom: 70px;
+
+}
+
+.product-info div img{
+    margin: 0px 70px 70px 40px;
+    background-color: #000000;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.product-info span{
+    margin-top: 30px;
+    font-weight: 200;
+    background: transparent;
+    
+}
+img[alt="beatsLogo"]{
+    scale: 0.6;
+    margin-bottom: 115px;
+    margin-right: 40px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vh;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+    margin-left: 70px;
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.first{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.products li:not(:first-child){
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 7px;
+}
+.support li:not(:first-child){
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 7px;
+}
+
+.subscription{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: #181a1b;
+    border-radius: 12px;
+    padding: 10px 7px;
+    
+    margin-top: -70px;
+    
+}
+.subscription img,
+.subscription input,
+.subscription button
+{
+    background: transparent;
+}
+.subs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.subscription input{
+    
+    border: none;
+    margin-left: 20px;
+    
+}
+.right{
+    background-color: #000000;
+    margin-right: 20px;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    
+    
+
+}
+.right button{
+    margin-left: 15px;
+    margin-right: 10px;
+
+    
+}
+.right img{
+    margin-left: 15px;
+    margin-top: 4px;
+}
+.soc-media ul li{
+    background-color: #181a1b;
+    padding: 2px 5px;
+    
+}
+.soc-media{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

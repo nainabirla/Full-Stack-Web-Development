@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/download.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    margin-top: 55px;
+    align-items: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-size: 18px;
+    color: #fefe00;
+    font-weight: 400;
+}
+.logo, .list-item{
+    cursor: pointer;
+}
+.btn{
+    padding: 12px 40px;
+    color: white;
+    background-color: #ff505f;
+    border:none;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+    cursor: pointer;
+    font-family:'Mukta',sans-serif;
+}
+    
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 50px;
+}
+.hero-heading{
+    font-size: 100px;
+    font-weight: 700;
+    color: #ecb80c;
+    font-family: 'Kanit', sans-serif;
+    line-height: 90px;
+    letter-spacing: 2px;
+    padding: 0px;
+    
+}
+.btn-large{
+    color: white;
+    padding: 20px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Mukta',sans-serif;
+}
